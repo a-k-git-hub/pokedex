@@ -1,0 +1,44 @@
+.MovesContainer {
+
+    height: 150px;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around
+}
+
+.PokemonMovesContainer {
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1s;
+    background: rgba(138, 138, 32, 0.404)
+}
+
+.PokemonMovesContainer:hover {
+    height: 180px;
+    width: 130px;
+    transition: 1s;
+}
+
+.PokeBallImage {
+    height: 70px;
+    width: 80px
+}
+
+.PokemonImage {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid black
+}
+
+.MovesTextStyle {
+    width: 100%;
+    background: grey
+}
